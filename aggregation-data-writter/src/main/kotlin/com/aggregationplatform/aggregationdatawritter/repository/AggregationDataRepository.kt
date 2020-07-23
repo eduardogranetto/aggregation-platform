@@ -1,0 +1,8 @@
+package com.aggregationplatform.aggregationdatawritter.repository
+
+import com.aggregationplatform.aggregationdatawritter.model.AggregationData
+import org.springframework.data.mongodb.repository.MongoRepository
+import org.springframework.stereotype.Repository
+
+@Repository
+interface AggregationDataRepository : MongoRepository<AggregationData, String>

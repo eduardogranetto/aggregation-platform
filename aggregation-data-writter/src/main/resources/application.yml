@@ -1,0 +1,17 @@
+server:
+  port: 19090
+
+management:
+  server.port: 19091
+  endpoints:
+    enabed-by-default: true
+    web.base-path: /
+
+spring:
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: aggregationdata
+      username: root
+      password: root
